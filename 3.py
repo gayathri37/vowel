@@ -1,6 +1,9 @@
-ch = input("Enter a character: ")
-
-if(ch=='A' or ch=='a' or ch=='E' or ch =='e' or ch=='I' or ch=='i' or ch=='O' or ch=='o' or ch=='U' or ch=='u'):
-    print(ch, "is a Vowel")
+num=input("");
+if (num>='a' and num<='z') or (num>='A' and num<='Z'):
+	if (num=='a' or num=='e' or num=='i' or num=='o' or num=='u' or num=='A' or num=='E' or num=='I' or num=='O' or num=='U'):
+		print('Vowel')
+	else:
+		print('Consonant')
 else:
-    print(ch, "is a Consonant")
+	print('Invalid')
+
